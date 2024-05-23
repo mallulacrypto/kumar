@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=EB+Garamond:wght@400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: #282828;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+nav {
+    background: #2c2e30;
+    display: flex;
+    align-items: center;
+    height: 120px;
+    padding: 0 50px;
+}
+
+nav .log {
+    cursor: pointer;
+}
+
+nav .nav-items {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+}
+
+nav .nav-items a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 2px;
+    margin: 0 20px;
+}
+
+nav .nav-items a i {
+    color: yellow;
+    padding: 2px;
+}
+
+nav form {
+    display: flex;
+    height: 40px;
+    padding: 2px;
+    background: #1e232b;
+    border-radius: 30px;
+    border: 1px solid rgba(155, 155, 155, 0.2);
+}
+
+nav form .search-data {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    background: none;
+}
+
+nav form button {
+    padding: 0 15px;
+    color: #000;
+    font-size: 17px;
+    background: yellow;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+
+nav form button:hover {
+    background: rgb(195, 195, 9);
+}
+
+.content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.content h1 {
+    letter-spacing: 5px;
+    font-family: "EB Garamond", serif;
+}
+
+.content h3 {
+    margin-top: 20px;
+}
+
+small {
+    font-family: initial;
+}
+
+.movie-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-item {
+    margin: 30px;
+    text-align: center;
+}
+
+.movie-item img {
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.movie-item img:hover {
+    transform: scale(1.1);
+}
+
+.movie-item h6 {
+    margin-top: 10px;
+    font-size: 16px;
+}
